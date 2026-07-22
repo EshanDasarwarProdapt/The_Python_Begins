@@ -1,0 +1,14 @@
+[
+  {
+    "msisdn": "9876543210",
+    "plan_type": "postpaid"
+  },
+  {
+    "msisdn": "9812345678",
+    "plan_type": "prepaid"
+  },
+  {
+    "msisdn": "9800011122",
+    "plan_type": "postpaid"
+  }
+]

@@ -1,0 +1,10 @@
+2026-07-22 14:25:41,596 INFO Billing process started
+2026-07-22 14:36:07,644 INFO Billing process started
+2026-07-22 14:36:07,645 WARNING Invalid duration: notanumber
+2026-07-22 14:36:07,645 CRITICAL Malformed CDR rows exceeded 10%%
+2026-07-22 14:37:47,701 INFO Billing process started
+2026-07-22 14:37:47,704 INFO Billing report generated
+2026-07-22 14:46:07,548 INFO Billing process started
+2026-07-22 14:46:07,574 INFO Billing report generated
+2026-07-22 14:46:34,402 INFO Billing process started
+2026-07-22 14:46:34,404 INFO Billing report generated

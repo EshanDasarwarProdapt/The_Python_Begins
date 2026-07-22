@@ -1,0 +1,31 @@
+{
+  "subscribers": {
+    "9876543210": {
+      "plan_type": "postpaid",
+      "call_count": 2,
+      "total_cost": 844.5
+    },
+    "9812345678": {
+      "plan_type": "prepaid",
+      "call_count": 2,
+      "total_cost": 8.0
+    },
+    "9800011122": {
+      "plan_type": "postpaid",
+      "call_count": 1,
+      "total_cost": 60.0
+    }
+  },
+  "unknown_subscribers": [
+    "9999999999",
+    "98r46t938456204865"
+  ],
+  "fraud_suspects": [
+    {
+      "msisdn": "9876543210",
+      "call_type": "international",
+      "duration_sec": 4200,
+      "cost": 840.0
+    }
+  ]
+}
