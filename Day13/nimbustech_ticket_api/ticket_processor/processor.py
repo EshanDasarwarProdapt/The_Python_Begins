@@ -1,7 +1,3 @@
-"""
-Core processing functions for NimbusTech ticket processing.
-"""
-
 import csv
 import json
 from collections import Counter

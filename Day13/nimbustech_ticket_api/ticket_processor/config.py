@@ -1,7 +1,3 @@
-"""
-Configuration constants for the NimbusTech ticket processor.
-"""
-
 PRIORITY_MAP = {
     "low": 1,
     "medium": 2,

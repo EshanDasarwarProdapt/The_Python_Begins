@@ -1,7 +1,3 @@
-"""
-Command-line entry point for NimbusTech ticket processing.
-"""
-
 import argparse
 import logging
 import sys

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NimbusTech Ticket Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="dashboard">
+      <header>
+        <h1>NimbusTech Ticket Dashboard</h1>
+        <section class="summary" aria-label="Ticket summary">
+          <p>Total <strong id="total-count">—</strong></p>
+          <p>Valid <strong id="valid-count">—</strong></p>
+          <p>Breached <strong id="breached-count">—</strong></p>
+        </section>
+      </header>
+
+      <p id="message" class="message" role="alert" aria-live="polite"></p>
+
+      <section class="controls">
+        <label><input id="breached-toggle" type="checkbox"> Show only breached</label>
+        <button id="new-ticket-button" type="button">New ticket</button>
+      </section>
+
+      <form id="ticket-form" class="ticket-form" hidden>
+        <label>Customer <input name="customer_name" required></label>
+        <label>Category <input name="category" required></label>
+        <label>Priority
+          <select name="priority_raw" required>
+            <option value="low">Low</option><option value="medium">Medium</option>
+            <option value="high">High</option><option value="critical">Critical</option>
+          </select>
+        </label>
+        <label>SLA hours <input name="sla_hours" type="number" min="0.1" step="0.1" required></label>
+        <label>Status <input name="status" value="open" required></label>
+        <button type="submit">Create ticket</button>
+      </form>
+
+      <section id="empty-state" class="empty-state" hidden>No tickets to display.</section>
+      <div class="table-wrapper">
+        <table id="tickets-table">
+          <thead><tr><th>ID</th><th>Customer</th><th>Category</th><th>Priority</th><th>Status</th><th>SLA</th><th>Action</th></tr></thead>
+          <tbody id="ticket-list"></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

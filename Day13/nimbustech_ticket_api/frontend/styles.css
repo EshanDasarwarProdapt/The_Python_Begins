@@ -1,0 +1,21 @@
+:root { font-family: Arial, sans-serif; color: #1f2937; background: #f3f4f6; }
+body { margin: 0; }
+.dashboard { max-width: 1100px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 10px; box-shadow: 0 3px 14px #0001; }
+header, .controls, .summary, .ticket-form { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+header { justify-content: space-between; }
+h1 { margin: 0; }
+.summary p { margin: 0; padding: .65rem .9rem; background: #e0f2fe; border-radius: 6px; }
+.controls { margin: 1.5rem 0 1rem; }
+button { cursor: pointer; border: 0; border-radius: 5px; padding: .6rem .9rem; background: #2563eb; color: #fff; }
+button.delete { background: #b91c1c; }
+.ticket-form { padding: 1rem; background: #f8fafc; border: 1px solid #dbeafe; margin-bottom: 1rem; }
+.ticket-form label { display: grid; gap: .3rem; }
+input, select { padding: .45rem; border: 1px solid #9ca3af; border-radius: 4px; }
+.table-wrapper { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: .75rem; border-bottom: 1px solid #e5e7eb; }
+.breached { background: #fef2f2; }
+.badge { background: #dc2626; color: white; padding: .2rem .45rem; border-radius: 999px; font-size: .75rem; margin-left: .4rem; }
+.message { min-height: 1.25rem; color: #b91c1c; font-weight: bold; }
+.message.success { color: #15803d; }
+.empty-state { padding: 2rem; text-align: center; background: #f8fafc; color: #64748b; }

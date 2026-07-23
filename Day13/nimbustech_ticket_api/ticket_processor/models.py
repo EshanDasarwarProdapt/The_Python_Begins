@@ -1,7 +1,3 @@
-"""
-Data models for the NimbusTech ticket processor.
-"""
-
 from dataclasses import dataclass
 
 
