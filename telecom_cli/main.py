@@ -78,7 +78,7 @@ def main():
         if malformed_percentage > MALFORMED_THRESHOLD:
 
             logging.critical(
-                "Malformed CDR rows exceeded 10%%"
+                "Malformed CDR rows exceeded 10%"
             )
 
             sys.exit(1)

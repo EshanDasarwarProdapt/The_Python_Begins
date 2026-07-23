@@ -2,7 +2,7 @@ msisdn,call_type,duration_sec
 9876543210,domestic,180
 9876543210,international,4200
 9812345678,roaming,60
-9812345678,domestic,0
+9812345678,domestic,0,uyhkd
 9800011122,international,300
 9999999999,domestic,120
 98r46t938456204865,heuwcaicsvd,8495

@@ -1,0 +1,9 @@
+ticket_id,customer_name,category,priority_raw,created_at,sla_hours,status
+T-1001,Acme Corp,billing,high,2026-07-20 09:00:00,24,open
+T-1002,Globex Inc,technical,critical,2026-07-19 14:30:00,8,open
+T-1003,Initech,technical,medium,2026-07-21 10:00:00,48,closed
+T-1004,,billing,low,2026-07-20 11:00:00,72,open
+T-1005,Umbrella LLC,technical,critical,2026-07-18 08:00:00,-5,open
+T-1006,Hooli,onboarding,medium,not-a-date,24,open
+T-1007,Stark Industries,billing,unknown,2026-07-21 09:00:00,24,open
+T-1008,Wayne Enterprises,technical,high,2026-07-19 09:00:00,24,open
