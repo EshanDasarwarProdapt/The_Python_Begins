@@ -1,0 +1,375 @@
+/* ==========================================================================
+   Smart Task Manager — Stylesheet
+   Plain CSS only, no framework, no build step. Uses system fonts so it
+   works completely offline.
+   ========================================================================== */
+
+:root {
+  /* Color palette: indigo/blue primary, soft gray background */
+  --color-primary: #4f46e5;
+  --color-primary-dark: #4338ca;
+  --color-bg: #f3f4f6;
+  --color-card-bg: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  --color-low: #16a34a;       /* green */
+  --color-low-bg: #dcfce7;
+  --color-medium: #d97706;    /* orange */
+  --color-medium-bg: #fef3c7;
+  --color-high: #dc2626;      /* red */
+  --color-high-bg: #fee2e2;
+
+  --color-status-pending: #6b7280;
+  --color-status-pending-bg: #e5e7eb;
+  --color-status-progress: #2563eb;
+  --color-status-progress-bg: #dbeafe;
+  --color-status-completed: #16a34a;
+  --color-status-completed-bg: #dcfce7;
+
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------------- Header ---------------- */
+
+.app-header {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #fff;
+  padding: 28px 0;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+
+.app-header h1 {
+  margin: 0 0 4px 0;
+  font-size: 1.8rem;
+}
+
+.app-header .subtitle {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* ---------------- Generic card ---------------- */
+
+.card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* ---------------- Error banner ---------------- */
+
+.error-banner {
+  background-color: var(--color-high-bg);
+  color: var(--color-high);
+  border: 1px solid var(--color-high);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ---------------- Statistics panel ---------------- */
+
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.stat-box {
+  flex: 1 1 120px;
+  background-color: var(--color-bg);
+  border-radius: var(--radius);
+  padding: 14px;
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+/* ---------------- Forms ---------------- */
+
+.form-row {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: var(--color-text);
+}
+
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row textarea,
+.form-row select {
+  padding: 9px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  background-color: #fff;
+  color: var(--color-text);
+}
+
+.form-row input:focus,
+.form-row textarea:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.form-row-split {
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.form-row-split > div {
+  flex: 1 1 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-link {
+  background: none;
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  padding: 10px 0;
+}
+
+.btn-link:hover {
+  color: var(--color-text);
+}
+
+.btn-small {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+.btn-edit {
+  background-color: var(--color-status-progress-bg);
+  color: var(--color-status-progress);
+}
+
+.btn-edit:hover {
+  background-color: #bfdbfe;
+}
+
+.btn-delete {
+  background-color: var(--color-high-bg);
+  color: var(--color-high);
+}
+
+.btn-delete:hover {
+  background-color: #fecaca;
+}
+
+/* ---------------- Filter bar ---------------- */
+
+.filter-bar .form-row-split {
+  margin-top: 4px;
+}
+
+/* ---------------- Task list ---------------- */
+
+.task-list-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.task-card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.task-card .task-description {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+.task-card .badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badge-priority-low {
+  background-color: var(--color-low-bg);
+  color: var(--color-low);
+}
+
+.badge-priority-medium {
+  background-color: var(--color-medium-bg);
+  color: var(--color-medium);
+}
+
+.badge-priority-high {
+  background-color: var(--color-high-bg);
+  color: var(--color-high);
+}
+
+.badge-status-pending {
+  background-color: var(--color-status-pending-bg);
+  color: var(--color-status-pending);
+}
+
+.badge-status-in-progress {
+  background-color: var(--color-status-progress-bg);
+  color: var(--color-status-progress);
+}
+
+.badge-status-completed {
+  background-color: var(--color-status-completed-bg);
+  color: var(--color-status-completed);
+}
+
+.task-card .deadline {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.task-card .card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+/* ---------------- Empty state ---------------- */
+
+.empty-state {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 40px 20px;
+  background-color: var(--color-card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (max-width: 600px) {
+  .form-row-split {
+    flex-direction: column;
+  }
+
+  .app-header h1 {
+    font-size: 1.4rem;
+  }
+
+  .task-list {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

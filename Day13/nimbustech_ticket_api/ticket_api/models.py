@@ -1,5 +1,3 @@
-"""Pydantic models used by the ticket API."""
-
 from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
@@ -8,7 +6,6 @@ from ticket_processor.config import PRIORITY_MAP
 
 
 class TicketCreate(BaseModel):
-    """Validate the data accepted when creating a ticket."""
 
     customer_name: str = Field(min_length=1)
     category: str = Field(min_length=1)
