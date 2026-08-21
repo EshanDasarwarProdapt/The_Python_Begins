@@ -1,0 +1,236 @@
+[
+  {
+    "chunk_id": "finance_policy_corporate_finance_and_expense__000_642e9485",
+    "text": "Sample training document for Multi-PDF RAG, metadata filtering, BM25, FAISS, and RRF\ndemonstrations.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "Corporate Finance and Expense Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "finance_policy_1__travel_reimbursement_000_85180318",
+    "text": "Employees traveling for approved business purposes may claim reasonable transportation, lodging, and\nmeal expenses. Travel must be approved by the employee's manager before booking. Expense claims\nshould be submitted within 15 calendar days after returning from the trip.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "1. Travel Reimbursement",
+    "page": 1
+  },
+  {
+    "chunk_id": "finance_policy_2__meal_expenses_000_bb68ad69",
+    "text": "Business meal expenses are reimbursable when directly related to approved business activities.\nEmployees must provide itemized receipts and identify the business purpose and participants.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "2. Meal Expenses",
+    "page": 1
+  },
+  {
+    "chunk_id": "finance_policy_3__expense_approval_000_7065a40d",
+    "text": "All expense claims must be reviewed and approved by the employee's reporting manager. Claims above\n$2,500 require additional approval from the Finance Department. Expenses without sufficient\ndocumentation may be rejected.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "3. Expense Approval",
+    "page": 1
+  },
+  {
+    "chunk_id": "finance_policy_4__purchase_orders_000_9d85739d",
+    "text": "A purchase order is required before committing to purchases above $1,000 unless an approved\nexception applies. Employees should use authorized suppliers whenever possible.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "4. Purchase Orders",
+    "page": 1
+  },
+  {
+    "chunk_id": "finance_policy_5__corporate_credit_cards_000_6cbaeb65",
+    "text": "Corporate credit cards are issued to approved employees for authorized business expenses.\nCardholders must retain receipts and submit monthly expense reports. Personal purchases using a\ncorporate card are prohibited.",
+    "document": "Finance_Policy.pdf",
+    "department": "Finance",
+    "policy_type": "Financial Policy",
+    "section": "5. Corporate Credit Cards",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_employee_human_resources_polic_000_06062930",
+    "text": "Sample training document for Multi-PDF RAG, metadata filtering, BM25, FAISS, and RRF\ndemonstrations.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "Employee Human Resources Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_1__annual_leave_policy_000_cfc003e2",
+    "text": "Full-time employees are eligible for 24 days of paid annual leave per calendar year. Employees should\nsubmit leave requests through the employee portal at least five working days before the planned leave.\nEmergency leave may be requested through the manager when advance notice is not possible. Unused\nannual leave may be carried forward for up to 10 days into the following calendar year.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "1. Annual Leave Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_2__sick_leave_000_3ff5684d",
+    "text": "Employees are eligible for 12 days of paid sick leave per calendar year. A medical certificate may be\nrequired for absences lasting more than three consecutive working days. Employees should inform their\nmanager as early as possible when they are unable to attend work because of illness.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "2. Sick Leave",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_3__work_hours_and_attendance_000_39b11e0b",
+    "text": "The standard working schedule is Monday through Friday, from 9:00 AM to 6:00 PM, including a\none-hour lunch break. Employees working flexible schedules must agree on working hours with their\nmanager. Repeated unexplained absence or lateness may result in disciplinary action.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "3. Work Hours and Attendance",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_4__performance_reviews_000_f370d2b0",
+    "text": "Employees participate in a formal performance review twice each year. Performance discussions cover\nobjectives, delivery, collaboration, professional development, and areas for improvement.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "4. Performance Reviews",
+    "page": 1
+  },
+  {
+    "chunk_id": "hr_policy_5__remote_work_000_d5b801ec",
+    "text": "Eligible employees may work remotely up to two days per week with manager approval. Employees\nmust maintain availability during agreed working hours and use company-approved collaboration and\nsecurity tools.",
+    "document": "HR_Policy.pdf",
+    "department": "HR",
+    "policy_type": "Human Resources Policy",
+    "section": "5. Remote Work",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_information_technology_and_sec_000_5ddb3cb4",
+    "text": "Sample training document for Multi-PDF RAG, metadata filtering, BM25, FAISS, and RRF\ndemonstrations.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "Information Technology and Security Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_1__password_policy_000_2f9e3f47",
+    "text": "Employees must use strong passwords for company accounts and must not share passwords with\ncolleagues. Passwords should contain a combination of letters, numbers, and special characters where\nsupported.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "1. Password Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_2__multi_factor_authentication_000_ebc6d127",
+    "text": "Multi-factor authentication is mandatory for critical company systems and remote access services.\nEmployees must register an approved authentication method and promptly report suspected\nunauthorized access.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "2. Multi-Factor Authentication",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_3__vpn_and_remote_access_000_d311f2ca",
+    "text": "Employees accessing internal company resources from outside the corporate network must use the\ncompany-approved VPN. Remote access credentials must be protected and should never be shared.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "3. VPN and Remote Access",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_4__device_security_000_05b86aaa",
+    "text": "Company laptops and mobile devices must use approved security controls, including screen locking and\nendpoint protection. Employees must report lost or stolen devices to the IT Service Desk immediately.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "4. Device Security",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_5__software_installation_000_c703d377",
+    "text": "Employees may install software only when it is approved by the IT Department or provided through\napproved software distribution systems. Unauthorized software is not permitted on company-managed\ndevices.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "5. Software Installation",
+    "page": 1
+  },
+  {
+    "chunk_id": "it_security_policy_6__security_incident_reporting_000_fbd0eb79",
+    "text": "Suspected phishing emails, malware infections, accidental data disclosure, and unauthorized access\nmust be reported immediately to the IT Security team.",
+    "document": "IT_Security_Policy.pdf",
+    "department": "IT Security",
+    "policy_type": "IT Security Policy",
+    "section": "6. Security Incident Reporting",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_legal_and_corporate_compliance_000_d0aa42b6",
+    "text": "Sample training document for Multi-PDF RAG, metadata filtering, BM25, FAISS, and RRF\ndemonstrations.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "Legal and Corporate Compliance Policy",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_1__contract_approval_000_b94d5ce3",
+    "text": "Business contracts must be reviewed by the Legal Department before signature when they create\nmaterial financial, regulatory, intellectual property, or liability obligations. Employees must not sign\ncontracts without appropriate delegated authority.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "1. Contract Approval",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_2__confidentiality_000_fcc9299a",
+    "text": "Employees must protect confidential company information and may disclose it only to authorized\nindividuals with a legitimate business need. Confidential information includes business plans, customer\ninformation, trade secrets, and non-public financial information.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "2. Confidentiality",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_3__data_protection_000_e1eddcf4",
+    "text": "Personal data must be collected, processed, stored, and shared in accordance with applicable privacy\nlaws and company procedures. Employees should access personal information only when necessary.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "3. Data Protection",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_4__conflict_of_interest_000_5d324559",
+    "text": "Employees must disclose actual or potential conflicts of interest to their manager or the Compliance\nDepartment. A conflict may arise when personal interests could improperly influence business decisions.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "4. Conflict of Interest",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_5__intellectual_property_000_7792c9ff",
+    "text": "Work products created by employees as part of their employment responsibilities may belong to the\ncompany according to applicable agreements and laws. Employees must respect third-party copyrights\nand licenses.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "5. Intellectual Property",
+    "page": 1
+  },
+  {
+    "chunk_id": "legal_compliance_policy_6__compliance_reporting_000_09759da4",
+    "text": "Employees are encouraged to report suspected violations of law, company policy, or ethical standards\nthrough approved reporting channels. Retaliation against individuals who raise concerns in good faith is\nprohibited.",
+    "document": "Legal_Compliance_Policy.pdf",
+    "department": "Legal Compliance",
+    "policy_type": "Legal Compliance Policy",
+    "section": "6. Compliance Reporting",
+    "page": 1
+  }
+]

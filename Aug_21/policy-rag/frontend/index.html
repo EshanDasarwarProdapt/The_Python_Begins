@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Policy Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Enterprise Policy Assistant</h1>
+            <div class="filter-container">
+                <label for="department-filter">Department:</label>
+                <select id="department-filter">
+                    <option value="All">All Departments</option>
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="IT Security">IT Security</option>
+                    <option value="Legal Compliance">Legal Compliance</option>
+                </select>
+            </div>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message system">
+                Hello! I am the Enterprise Policy Assistant. Ask me a question about our company policies.
+            </div>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ask a policy question..." autocomplete="off">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
