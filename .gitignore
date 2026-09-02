@@ -11,3 +11,8 @@ __pycache__/
 
 # VS Code
 .vscode/
+
+Data_Engineering/jdk-17/
+
+.env
+**/.env

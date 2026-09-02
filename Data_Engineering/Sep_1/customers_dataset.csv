@@ -1,0 +1,121 @@
+customer_id,customer_name,gender,age,city,state,signup_date,membership_type,credit_score
+1,Zachary Randall,Male,22,Pune,Maharashtra,2023-09-03,Silver,614
+2,Morgan Wilson,Male,27,Pune,Telangana,2025-09-26,Silver,802
+3,Troy Brown,Female,23,Chennai,Tamil Nadu,2026-03-27,Silver,619
+4,Crystal Miller,Male,56,Bangalore,Telangana,2025-07-29,Gold,612
+5,Marisa Miller,Female,58,Mumbai,Tamil Nadu,2025-07-17,Silver,857
+6,Theresa Ferguson,Female,42,Mumbai,Karnataka,2025-01-28,Silver,890
+7,Yvonne Carroll,Female,27,Chennai,Delhi,2023-08-01,Silver,683
+8,Michael Sloan,Female,59,Mumbai,Tamil Nadu,2023-05-31,Platinum,735
+9,Mark Thompson,Male,45,Chennai,Telangana,2024-08-25,Gold,821
+10,Tara Walker,Female,57,Bangalore,Tamil Nadu,2025-11-21,Silver,838
+11,Darrell Jones,Male,39,Chennai,Karnataka,2023-07-31,Silver,694
+12,Anthony Delgado,Female,50,Pune,Maharashtra,2024-05-27,Silver,689
+13,William Bailey,Female,34,Pune,Maharashtra,2024-05-29,Platinum,849
+14,Lisa Lopez DDS,Male,59,Pune,Karnataka,2025-05-27,Platinum,873
+15,Emily Galloway,Male,31,Delhi,Delhi,2026-02-08,Gold,827
+16,Ryan Cohen,Male,41,Chennai,Karnataka,2026-01-11,Silver,661
+17,Jacob Lopez,Female,38,Chennai,Karnataka,2025-10-20,Platinum,867
+18,Jaime Vasquez,Female,34,Pune,Delhi,2024-07-24,Gold,829
+19,Hector Gordon,Female,30,Mumbai,Karnataka,2026-04-26,Silver,881
+20,Paul Stevens,Female,58,Delhi,Telangana,2023-10-18,Gold,685
+21,Jordan Jones,Male,29,Hyderabad,Delhi,2025-06-25,Silver,886
+22,Aaron Mcconnell,Male,28,Bangalore,Karnataka,2024-04-07,Platinum,716
+23,Joel Griffin,Male,45,Delhi,Telangana,2026-03-21,Gold,770
+24,Karla Diaz,Female,56,Chennai,Tamil Nadu,2026-03-21,Platinum,774
+25,Jesse Le,Female,42,Chennai,Maharashtra,2025-07-31,Gold,580
+26,Dr. Bobby Bryan,Female,21,Pune,Maharashtra,2023-08-25,Platinum,890
+27,Mary Hawkins,Male,53,Chennai,Maharashtra,2026-03-16,Platinum,759
+28,Joshua Hardin,Male,30,Mumbai,Karnataka,2023-09-13,Platinum,898
+29,Teresa Mann,Male,59,Mumbai,Delhi,2025-09-14,Silver,557
+30,Katherine Hansen,Female,40,Bangalore,Tamil Nadu,2024-12-21,Silver,790
+31,Mario Flynn,Male,26,Pune,Delhi,2024-03-30,Silver,889
+32,Robert Jackson,Male,29,Pune,Delhi,2024-03-05,Platinum,584
+33,Mrs. Ashley Andrews,Female,54,Hyderabad,Delhi,2023-06-17,Silver,776
+34,Marissa Mcfarland,Male,40,Delhi,Maharashtra,2023-09-18,Gold,764
+35,Ashley Little,Female,28,Bangalore,Karnataka,2023-12-15,Silver,673
+36,Amy Sullivan,Male,58,Hyderabad,Karnataka,2026-04-20,Platinum,612
+37,Robin Cobb,Male,25,Pune,Tamil Nadu,2024-09-10,Silver,534
+38,Sarah Klein,Male,42,Chennai,Telangana,2023-12-23,Silver,642
+39,Angela Flynn,Female,34,Hyderabad,Karnataka,2024-06-16,Platinum,792
+40,Carrie Bailey,Female,36,Delhi,Delhi,2024-07-03,Silver,548
+41,Jennifer Mckinney,Male,48,Mumbai,Delhi,2023-08-10,Gold,739
+42,Valerie Johnson,Male,27,Chennai,Delhi,2024-02-27,Platinum,673
+43,Adam Garcia,Male,36,Bangalore,Karnataka,2025-01-04,Platinum,729
+44,Jason Stevenson,Male,48,Bangalore,Maharashtra,2024-06-21,Gold,627
+45,Jason Nelson,Male,49,Hyderabad,Tamil Nadu,2025-01-03,Silver,833
+46,Johnny Warren,Male,26,Bangalore,Karnataka,2023-05-29,Gold,748
+47,John Rivas,Female,34,Delhi,Tamil Nadu,2025-04-07,Silver,694
+48,Kristine Schmidt,Male,45,Mumbai,Delhi,2025-11-12,Gold,716
+49,Lisa French,Female,30,Bangalore,Maharashtra,2026-04-27,Silver,529
+50,Emily Scott,Male,41,Chennai,Tamil Nadu,2025-10-04,Platinum,744
+51,Charles Stevens,Male,24,Hyderabad,Tamil Nadu,2023-05-30,Silver,535
+52,Jennifer Hunter,Male,36,Delhi,Tamil Nadu,2024-06-27,Platinum,626
+53,Brandon Lopez,Male,60,Chennai,Delhi,2025-05-19,Platinum,798
+54,Nicole Johnson,Female,37,Bangalore,Maharashtra,2023-06-13,Silver,635
+55,Tina Garcia,Female,29,Pune,Maharashtra,2025-09-03,Gold,661
+56,Matthew Evans,Male,21,Delhi,Telangana,2024-12-11,Platinum,551
+57,Jason Obrien,Male,55,Bangalore,Telangana,2024-04-14,Gold,567
+58,Alison Ramos,Female,25,Bangalore,Maharashtra,2025-07-13,Gold,580
+59,Jim Deleon,Female,55,Pune,Maharashtra,2024-01-06,Platinum,834
+60,Debra Ramirez,Male,56,Mumbai,Tamil Nadu,2025-03-31,Silver,635
+61,Brandon Hatfield,Male,27,Pune,Telangana,2024-11-22,Silver,639
+62,Mitchell Kent,Female,59,Bangalore,Maharashtra,2024-05-27,Silver,851
+63,Michael Bridges,Female,53,Delhi,Maharashtra,2024-05-20,Silver,547
+64,Nicole Meza,Female,38,Chennai,Tamil Nadu,2024-12-08,Gold,894
+65,Nancy Keith,Male,37,Bangalore,Delhi,2026-02-16,Platinum,861
+66,Anna Walsh,Female,56,Chennai,Tamil Nadu,2024-02-26,Silver,853
+67,Veronica Hebert,Male,55,Chennai,Maharashtra,2024-11-20,Platinum,782
+68,Joseph Mccall,Male,48,Bangalore,Tamil Nadu,2023-06-20,Gold,686
+69,Emily Acevedo,Male,43,Bangalore,Karnataka,2024-05-13,Platinum,552
+70,Joshua Howell,Female,56,Delhi,Telangana,2024-06-17,Platinum,579
+71,Kayla Knox,Male,31,Bangalore,Delhi,2025-07-07,Silver,591
+72,Perry Patterson,Female,47,Pune,Karnataka,2024-04-12,Gold,581
+73,Lauren Ortiz,Male,45,Chennai,Delhi,2025-03-25,Silver,602
+74,Charles Osborne,Female,43,Mumbai,Karnataka,2025-07-12,Silver,512
+75,Michael Li,Male,46,Mumbai,Maharashtra,2024-06-19,Silver,895
+76,Pamela Price,Female,43,Pune,Telangana,2026-01-08,Gold,847
+77,Clifford Williamson,Female,22,Chennai,Maharashtra,2023-11-29,Silver,797
+78,Joshua Washington,Female,23,Chennai,Telangana,2024-04-12,Gold,676
+79,Karen Pittman,Female,48,Hyderabad,Telangana,2025-12-16,Silver,697
+80,Jason Garcia,Male,37,Chennai,Delhi,2025-02-11,Silver,766
+81,Thomas Gonzalez,Male,44,Delhi,Tamil Nadu,2025-03-28,Platinum,669
+82,Kelly Jackson,Female,28,Pune,Maharashtra,2024-01-25,Platinum,658
+83,Daniel Griffin,Female,41,Delhi,Maharashtra,2026-01-02,Platinum,565
+84,Maria Jackson,Male,47,Pune,Delhi,2026-03-24,Platinum,883
+85,Courtney Bell,Male,60,Hyderabad,Maharashtra,2025-11-21,Gold,780
+86,Elizabeth Sheppard,Male,40,Mumbai,Karnataka,2025-11-02,Gold,796
+87,Ashley Fitzgerald,Female,50,Delhi,Delhi,2024-02-26,Platinum,609
+88,Heather Salazar,Female,31,Pune,Tamil Nadu,2025-08-13,Gold,763
+89,Larry Flores,Female,26,Bangalore,Maharashtra,2024-03-20,Silver,601
+90,Michael Pope,Male,22,Chennai,Karnataka,2026-01-05,Gold,812
+91,Kelly Brown,Male,50,Delhi,Telangana,2024-09-09,Silver,867
+92,Kristen Moore,Female,52,Delhi,Karnataka,2024-11-24,Silver,835
+93,Shirley Harrison,Male,27,Delhi,Karnataka,2025-08-23,Silver,856
+94,Sheila Stone,Female,24,Hyderabad,Karnataka,2025-07-28,Silver,733
+95,Kristen Reyes,Male,50,Pune,Telangana,2023-07-30,Platinum,804
+96,Gina Ortiz,Female,49,Hyderabad,Telangana,2024-11-27,Gold,780
+97,Cynthia Thompson,Female,31,Pune,Delhi,2024-02-18,Gold,632
+98,Amy Reyes MD,Male,38,Hyderabad,Delhi,2025-11-25,Platinum,622
+99,Cassandra Conner,Female,49,Chennai,Maharashtra,2025-10-21,Silver,639
+100,Laura Henderson,Female,41,Hyderabad,Tamil Nadu,2023-08-22,Silver,577
+101,Joshua Brown,Male,45,Pune,Karnataka,2025-07-08,Platinum,609
+102,James Fox,Male,47,Delhi,Maharashtra,2023-10-10,Platinum,738
+103,Daniel Garcia,Female,24,Bangalore,Delhi,2024-09-29,Gold,894
+104,Alison Mcdonald,Male,57,Delhi,Delhi,2024-09-13,Silver,680
+105,Elizabeth Logan,Female,45,Delhi,Telangana,2023-06-03,Platinum,876
+106,Shane Miller,Male,52,Bangalore,Maharashtra,2023-06-27,Gold,748
+107,David Brown,Male,45,Mumbai,Delhi,2025-06-09,Platinum,584
+108,Sheena Stephenson,Female,29,Hyderabad,Telangana,2025-06-30,Silver,701
+109,Teresa Bishop,Male,26,Pune,Delhi,2024-07-10,Silver,736
+110,Jeremy Munoz,Male,24,Mumbai,Delhi,2024-10-20,Gold,608
+111,Shawn Walsh,Female,41,Mumbai,Delhi,2024-08-24,Gold,885
+112,John Serrano,Female,37,Chennai,Delhi,2024-02-14,Silver,883
+113,Ashley Jimenez,Male,43,Bangalore,Tamil Nadu,2024-06-04,Platinum,520
+114,Alan Anderson,Male,36,Bangalore,Tamil Nadu,2024-10-19,Platinum,578
+115,Marissa Watson,Male,29,Delhi,Tamil Nadu,2025-11-17,Platinum,611
+116,Richard Taylor,Female,37,Mumbai,Karnataka,2024-08-15,Platinum,810
+117,Miss Melody Mclaughlin DVM,Male,31,Mumbai,Tamil Nadu,2024-01-19,Platinum,513
+118,John Johnson,Female,57,Pune,Delhi,2023-06-09,Gold,866
+119,Joseph Watson,Male,25,Hyderabad,Karnataka,2026-01-24,Silver,856
+120,Terry Ho,Female,59,Chennai,Telangana,2025-05-02,Silver,677

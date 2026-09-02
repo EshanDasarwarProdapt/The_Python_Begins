@@ -1,0 +1,20 @@
+2024-01-01 10:00:01 INFO user1 login success
+2024-01-01 10:01:15 ERROR user2 payment failed
+2024-01-01 10:02:20 INFO user3 view_product item123
+2024-01-01 10:03:05 WARN user1 low_balance
+2024-01-01 10:04:45 INFO user4 add_to_cart item456
+2024-01-01 10:05:12 ERROR user2 payment failed
+2024-01-01 10:06:30 INFO user5 logout success
+2024-01-01 10:07:55 INFO user3 purchase item123
+2024-01-01 10:08:10 ERROR user6 login failed
+2024-01-01 10:09:25 INFO user1 purchase item789
+2024-01-01 10:10:40 WARN user4 session_timeout
+2024-01-01 10:11:22 INFO user2 login success
+2024-01-01 10:12:50 ERROR user3 payment failed
+2024-01-01 10:13:33 INFO user5 view_product item222
+2024-01-01 10:14:17 INFO user6 add_to_cart item999
+2024-01-01 10:15:48 WARN user2 low_balance
+2024-01-01 10:16:29 INFO user1 logout success
+2024-01-01 10:17:10 ERROR user4 login failed
+2024-01-01 10:18:55 INFO user3 purchase item555
+2024-01-01 10:19:40 INFO user5 login success
